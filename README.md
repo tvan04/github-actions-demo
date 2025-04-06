@@ -27,7 +27,7 @@ Welcome to the GitHub Actions Workshop! This repository is designed to help you 
 1. Open `.github/workflows/main.yml`
 2. Add a new job called `lint` that:
    - Runs after the test job
-   - Uses the `npm run` to check code style
+   - Uses the `npm run lint` command to check code style
    - Only runs when files in `src/` or `tests/` change
 3. Add these environment variables to the workflow:
    - `NODE_ENV: 'test'`
